@@ -3,14 +3,18 @@ body{
     font-size:12pt;
 
     padding: 30px;
-    margin: 20px;
-    border: 5px solid #052f80;
 
     text-align: left;
     background-color: #050821;
     color: #ffffff;
 }
 
+
 .artist{
-    color: #8ebdff;
+    color: #348BCA; /* matched to link colour */
+}
+
+a:hover{
+    color: #00aa00;
+    text-decoration: none; /* no underline */
 }
