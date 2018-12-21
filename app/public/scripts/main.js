@@ -53,10 +53,12 @@
       });
 
       var times = ["short_term", "medium_term", "long_term"];
+      //
+      // for (var i in times){
+      //     getTopTracksData(access_token, times[i], 20);
+      // }
 
-      for (var t in times){
-          runQuery(access_token, times[t], 20);
-      }
+      getUserPlaylists(access_token, 50);
 
       $('#login').hide();
       $('#loggedin').show();
